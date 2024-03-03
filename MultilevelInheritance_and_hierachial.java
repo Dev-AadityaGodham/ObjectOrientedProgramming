@@ -12,12 +12,16 @@ class shape{
     }
 }
 class circle extends shape{
-	
+	public void area(int r){
+		System.out.println(3.4*(r*r));
+	}
 }
 //class square extends shape calss and similerly Traingle calss and circle also extends shape class is know as
 //Hierchical Inheritance
 class square extends shape{
-
+	public void area(int a){
+		System.out.println(a*a);
+	}
 }
 class Traingle extends shape{
     public void area(int l,int b){
