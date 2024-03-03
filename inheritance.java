@@ -1,5 +1,6 @@
 /******************************************************************************
     inheritance(one calss able to adapt evey property of other class)
+    child class extends the parent class also know as sub-class and base-class
 *******************************************************************************/
 class shape{
     String shapeName;
